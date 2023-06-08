@@ -15,8 +15,8 @@ import java.util.concurrent.TimeUnit;
 
 public class Search extends Command {
 
-    TmdbMovies movies = new TmdbApi("11cabbbb36bd7e198ad30a18b2c58b0b").getMovies();
-    TmdbSearch search = new TmdbApi("11cabbbb36bd7e198ad30a18b2c58b0b").getSearch();
+    TmdbMovies movies = new TmdbApi(TmdbAPI).getMovies();
+    TmdbSearch search = new TmdbApi(TmdbAPI).getSearch();
 
     private EventWaiter waiter;
 
