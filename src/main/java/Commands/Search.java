@@ -29,7 +29,7 @@ public class Search extends Command {
     public Search(EventWaiter w) {
         this.name = "search";
         this.aliases = new String[]{"s"};
-        this.help = "Searches for a movie you retard, what did you expect?";
+        this.help = "Searches for a movie, what did you expect?";
         this.arguments = "[movie]";
         this.waiter = w;
     }
