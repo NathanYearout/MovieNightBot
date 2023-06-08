@@ -21,7 +21,7 @@ public class Bot {
         builder.setOwnerId("670492795194179596");
         builder.setPrefix("~");
         builder.setHelpWord("help");
-        builder.setActivity(Activity.watching("your moms tits"));
+        builder.setActivity(Activity.watching("Movies"));
         builder.addCommand(new Search(waiter));
 
         CommandClient client = builder.build();
