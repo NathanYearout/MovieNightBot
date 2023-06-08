@@ -12,7 +12,7 @@ import net.dv8tion.jda.api.entities.Activity;
 public class Bot {
 
     public static void main(String[] arguments) throws Exception {
-        JDA jda = JDABuilder.createDefault("NjcwNDkyNzk1MTk0MTc5NTk2.XpYE0Q.nlCUS3eWqu934DxAH5ZjY0smTEA")
+        JDA jda = JDABuilder.createDefault(Token Here)
                 .build();
 
         EventWaiter waiter = new EventWaiter();
